@@ -1,7 +1,7 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -136,15 +136,34 @@ main {
 /* what i do end */
 /* resume section start */
 .resume-colum-title{
-    color: #474747); 
+    color: #474747; 
     font-size: 25px; 
     font-weight: 700;
 }
 .resume-continer{
     display: flex;
-    gap: 70px;
+     gap: 200px;
+
+}
+.resume-item-title{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
 }
 .resume-item-desc{
     color:#757575;
+}
+.resume-item-institute{
+  color:#757575;
+}
+.resume-continer hr{
+  margin: 30px;  
+}
+.resume-continer{
+  margin-top: 30px;
+}
+
+.download-cv{
+  text-align: center;
 }
 /* resume section end */
